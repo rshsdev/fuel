@@ -7,9 +7,9 @@ local_writable_dirs: [/fuel/app/tmp]
 ################################################
 ## WEB SPECIFIC SETTINGS
 ################################################
-document_root: /public
+document_root: /
 index_list: [index.php]
-default_gateway: index.php 
+default_gateway: public/index.php 
 
 ################################################
 ## PHP SPECIFIC SETTINGS
