@@ -14,7 +14,7 @@ default_gateway: index.php
 ################################################
 ## PHP SPECIFIC SETTINGS
 ################################################
-php_version: '5.3.6'
+php_version: 5.3.6
 php_extensions: [apc, mysql, gd, filter, curl, mbstring]
 php_error_reporting: 'E_ALL'
 php_display_errors: On
